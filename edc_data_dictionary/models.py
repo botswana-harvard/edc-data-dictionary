@@ -86,5 +86,5 @@ class DataDictionaryModel(BaseModel):
     class Meta:
         app_label = 'edc_data_dictionary'
         verbose_name = 'Data Dictionary'
-        verbose_name = 'Data Dictionaries'
+        verbose_name_plural = 'Data Dictionaries'
         ordering = ['model_name', 'number']
