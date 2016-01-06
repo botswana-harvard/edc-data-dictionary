@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from edc.export.actions import export_as_csv_action
+from edc_export.actions import export_as_csv_action
 
 from .models import DataDictionaryModel
 

@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'edc_audit',
     'edc_base',
     'edc_content_type_map',
+    'edc_export',
     'edc_meta_data',
     'edc_registration',
     'edc_rule_groups',
